@@ -5,21 +5,31 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* Header main */}
+        <div className="header-main">
+          <div class="header-brand">
+            <button></button>
+            <a>Logo</a>
+          </div>
+          <div class="header-links">
+            <a>Sign in</a>
+            <a>User</a>
+            <a>Card</a>
+          </div>
+        </div>
+
+        {/* Header search */}
+        <div className="header-search">
+          <button class="search-back-button">Back</button>
+          <div className="search-section">
+              <input type="text" placeholder="Search" class="search-input" />
+              <button class="search-cross-button">Cross</button>
+              <button class="search-loop-button">Loop</button>
+          </div>
+        </div>
       </header>
-    </div>
-  );
+    </div> 
+  ); 
 }
 
 export default App;
