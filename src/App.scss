@@ -1,6 +1,7 @@
+$xs: 4px;
 $sm: 8px;
 $md: 16px;
-$lg: 40px;
+$lg: 42px;
 $xl: 64;
 
 $primary: #023047;
@@ -9,19 +10,26 @@ $tertiary: #FFB703;
 $blue-ocean: #219EBC;
 $blue-sky: #8ECAE6;
 
+header {
+  background-color: #023047;
+}
+
 .header-main {
   display: flex;
   justify-content: space-between;
   padding: $sm;
+  color: white;
 }
 
 .header-brand {
  display: flex;
+ align-items: center;
  gap: $sm;
 }
 
 .header-links {
   display: flex;
+  align-items: center;
   gap: $sm;
 }
 
@@ -29,6 +37,7 @@ $blue-sky: #8ECAE6;
   display: flex;
   padding-left: $sm;
   padding-right: $sm;
+  padding-bottom: $xs;
 }
 
 .button {
@@ -39,11 +48,18 @@ $blue-sky: #8ECAE6;
   display: flex;
   flex-grow: 9;
   border-style: solid;
+  border-radius: $xs;
   border-width: 1px;
 }
 
 .search-input {
   flex-grow: 7;
   border-style: hidden;
+}
+
+.search-loop-button {
+  background-color: #FB8500;
+  border-style: none;
+  border-radius: $xs;
 }
 

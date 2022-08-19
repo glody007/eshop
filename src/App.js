@@ -7,7 +7,7 @@ function App() {
         {/* Header main */}
         <div className="header-main">
           <div class="header-brand">
-            <button></button>
+            <button className='button'>Hum</button>
             <a>Logo</a>
           </div>
           <div class="header-links">
