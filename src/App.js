@@ -19,11 +19,11 @@ function App() {
 
         {/* Header search */}
         <div className="header-search">
-          <button class="search-back-button">Back</button>
+          <button class="button search-back-button">Back</button>
           <div className="search-section">
               <input type="text" placeholder="Search" class="search-input" />
-              <button class="search-cross-button">Cross</button>
-              <button class="search-loop-button">Loop</button>
+              <button class="button search-cross-button">Cross</button>
+              <button class="button search-loop-button">Loop</button>
           </div>
         </div>
       </header>

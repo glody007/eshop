@@ -1,4 +1,13 @@
 $sm: 8px;
+$md: 16px;
+$lg: 40px;
+$xl: 64;
+
+$primary: #023047;
+$secondary: #FB8500;
+$tertiary: #FFB703;
+$blue-ocean: #219EBC;
+$blue-sky: #8ECAE6;
 
 .header-main {
   display: flex;
@@ -22,12 +31,19 @@ $sm: 8px;
   padding-right: $sm;
 }
 
+.button {
+  height: $lg;
+}
+
 .search-section {
   display: flex;
   flex-grow: 9;
+  border-style: solid;
+  border-width: 1px;
 }
 
 .search-input {
   flex-grow: 7;
+  border-style: hidden;
 }
 
