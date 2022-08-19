@@ -26,6 +26,23 @@ function App() {
               <button class="button search-loop-button">Loop</button>
           </div>
         </div>
+
+        {/* Header categories */}
+        <div className="header-categories">
+          <a>Deals</a>
+          <a>Amazon Basics</a>
+          <a>Best Sellers</a>
+          <a>LiveStreams</a>
+          <a>Video</a>
+          <a>New Releases</a>
+          <a>Home</a>
+        </div>
+
+        {/* Header country */}
+        <div className="header-country">
+          <span>Loc</span>
+          <p>Deliver to congo, The Democratic republic of</p>
+        </div>
       </header>
     </div> 
   ); 

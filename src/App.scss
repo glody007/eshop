@@ -1,5 +1,5 @@
 $xs: 4px;
-$sm: 8px;
+$sm: 10px;
 $md: 16px;
 $lg: 42px;
 $xl: 64;
@@ -37,7 +37,6 @@ header {
   display: flex;
   padding-left: $sm;
   padding-right: $sm;
-  padding-bottom: $xs;
 }
 
 .button {
@@ -63,3 +62,31 @@ header {
   border-radius: $xs;
 }
 
+.header-categories {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  gap: $sm;
+  padding: $sm;
+
+  a {
+    color: white;
+    white-space: nowrap;
+  }
+}
+
+.header-country {
+  display: flex;
+  background-color: #219EBC;
+  align-items: center;
+  padding-left: $sm;
+  gap: $sm;
+
+  p, span {
+    color: white;
+    overflow: hidden;
+    max-width: 27ch;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+  }
+}
