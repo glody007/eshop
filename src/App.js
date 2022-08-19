@@ -44,6 +44,26 @@ function App() {
           <p>Deliver to congo, The Democratic republic of</p>
         </div>
       </header>
+      <body>
+        <div className="prefered-categories">
+          <div className="prefered-category">
+            <p>Shop Laptops & Tablets</p>
+            <img src="https://images.unsplash.com/photo-1660908677744-742eb1fdca49?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=752&q=80" />
+          </div>
+          <div className="prefered-category">
+            <p>Shop Laptops & Tablets</p>
+            <img src="https://images.unsplash.com/photo-1660908677744-742eb1fdca49?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=752&q=80" />
+          </div>
+          <div className="prefered-category">
+            <p>Shop Laptops & Tablets</p>
+            <img src="https://images.unsplash.com/photo-1655720035861-ba4fd21a598d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" />
+          </div>
+          <div className="prefered-category">
+            <p>Shop Laptops & Tablets</p>
+            <img src="https://images.unsplash.com/photo-1660908677744-742eb1fdca49?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=752&q=80" />
+          </div>
+        </div>
+      </body>
     </div> 
   ); 
 }
