@@ -1,23 +1,25 @@
+$sm: 8px;
+
 .header-main {
   display: flex;
   justify-content: space-between;
-  padding: 8px;
+  padding: $sm;
 }
 
 .header-brand {
  display: flex;
- gap: 8px;
+ gap: $sm;
 }
 
 .header-links {
   display: flex;
-  gap: 8px;
+  gap: $sm;
 }
 
 .header-search {
   display: flex;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: $sm;
+  padding-right: $sm;
 }
 
 .search-section {
