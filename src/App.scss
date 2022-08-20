@@ -11,6 +11,10 @@ $blue-ocean: #219EBC;
 $blue-sky: #8ECAE6;
 $gray: #DDD;
 
+p, h1, h2, h3, h4 {
+  margin: 0px;
+}
+
 header {
   background-color: #023047;
 }
@@ -87,6 +91,8 @@ header {
     color: white;
     overflow: hidden;
     max-width: 27ch;
+    padding-top: $sm;
+    padding-bottom: $sm;
     text-overflow: ellipsis;
     white-space: nowrap; 
   }
@@ -116,5 +122,25 @@ body {
   img {
     width: 100%;
     height: 140px;
+  }
+}
+
+.popular-category {
+  background-color: white;
+  padding: $sm;
+  display: flex;
+  flex-direction: column;
+  gap: $sm;
+}
+
+.popular-category-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: $xs;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1 / 1;
   }
 }
