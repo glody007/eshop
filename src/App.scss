@@ -2,7 +2,7 @@ $xs: 4px;
 $sm: 10px;
 $md: 16px;
 $lg: 42px;
-$xl: 64;
+$xl: 64px;
 
 $primary: #023047;
 $secondary: #FB8500;
@@ -142,5 +142,35 @@ body {
     object-fit: cover;
     width: 100%;
     aspect-ratio: 1 / 1;
+  }
+}
+
+.category--featured {
+  position: relative;
+  height: 8rem;
+
+  .category__title {
+    position: absolute;
+    right: 1rem;
+    top: .5rem;
+    z-index: 10;
+    font-size: 1.5rem;
+  }
+  
+  .category__image {
+    width: 100%;
+    opacity: .4;
+    transition: opacity ease-out 0.2s;
+  }
+
+  &:hover {
+    .category__title {
+      background-color: #DDD;
+      padding: .5rem;
+    }
+
+    .category__image {
+      opacity: 1;
+    }
   }
 }

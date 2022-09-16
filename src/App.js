@@ -74,6 +74,11 @@ function App() {
           </div>
           <a>See more</a>
         </div>
+
+        <div className='category--featured'>
+          <h2 className='category__title'>Shop Sports & Outdoor</h2>
+          <img src="https://images.unsplash.com/photo-1584093091778-e7f4e76e8063?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="category__image" />
+        </div>
       </body>
     </div> 
   ); 
